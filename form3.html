@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pw form</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>user details!!</legend>
+            <label for="user name">user name:</label> <!--lebel tag is used to activate the corresponding value  -->
+            <input type="text" placeholder="user name">
+            <br>
+             <label for="address">enter address</label>
+             <textarea name="address" id="address" cols=" 30" rows="5" placeholder="address"></textarea> <!--name atribute is used to tell to the server given value is what is it-->
+             <br>
+             <label for="DOB"> date of birth</label>
+             <input type="date" id="DOB">
+             <br>
+             <label for="password">enter your password:</label>
+             <input type="password" id="password" name="password">
+             <br>
+             <!-- if we have a collection if radio buttons we give same name at seversite so we can choose only one radio button -->
+             select gender:
+             <label for="male">male</label>
+             <input type="radio" id="male" name="gender">
+             <br>
+             <label for="female">female</label>
+             <input type="radio" id="female" name="gender">
+             <br>
+             <label for="other">other</label>
+             <input type="radio" id="other" name="gender">
+             <br>
+             <!-- with different name radio button -->
+             with different name:
+             <label for="male">male</label>
+             <input type="radio" id="male" name="gender1">
+             
+             <label for="female">female</label>
+             <input type="radio" id="female" name="gender2">
+             
+             <label for="other">other</label>
+             <input type="radio" id="other" name="gender3"><br>
+             <!-- checkbox -->
+             select movie name:
+             <br>
+             <label for="avengers">avengers</label>
+             <input type="checkbox" name="avengers" id="avengers">
+             <br>
+             <label for="thor">thor</label>
+             <input type="checkbox" name="thor" id="thor">
+             <br>
+             <label for="ironman">ironman</label>
+             <input type="checkbox" name="ironman" id="ironman">
+             <br>
+             <input type="button" value="submit">
+            </fieldset>
+        
+    </form>
+   
+</body>
+</html>
